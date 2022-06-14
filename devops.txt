@@ -1,0 +1,41 @@
+Devops:- It is a combination of 2 words 
+1)devlopment 2)operations
+--------------------------------------------------
+We have lot of tools involved in Devops
+1)Git it is a repository :- In this we create a repository and store our projects.we create branches which indicates the group members in the project.
+example there are 10 members means we have to create 10 banches.Then we can merge these banches into a main repository.
+example:-
+1)login  2)registration module.3)service module 4)feedback module 5)shopping cart
+The repository will be 2 types 1)local -in your system 2)global -in the cloud or internet.
+benefit :- 
+1) if your system crash we can have the backup .
+2)you can share with any one over the globe by sharing the link.
+3)creating braches and merging it for local storage.
+https://git-scm.com/downloads
+4)global storage--https://github.com/
+
+to pull the data from the remote github
+------------------------------------------------------
+step 1:- right click on a folder
+step 2:-select GIT GUI here
+step 3:-The  command prompt will open.
+step 4:-git remote add origin "https://github.com/sandipmohapatra/MDOCSBATCH"
+step 5:- git pull origin mohapatra2018
+step 6:-git status :-to see if the branch is clean and nothing to commit.
+step 7:-vi project.txt 
+to insert the lines into the file press insert
+to save and quit
+press --esc :wq
+step 8:-ls to see the list of files.
+step 9:-git add .
+step 10:-git commit -m "This is mdocs batch"
+step 11:-create a branch
+git branch firstbranch
+step :12 :-git checkout firstbranch
+to goto the branch we have to do checkout
+*create files and do git add,git commit.
+step 13:-  
+git checkout master
+git merge firstbranch
+* when you merge your code with the master then you have submited your code to the projectmanager. 
+---------------------------------------------------------------
